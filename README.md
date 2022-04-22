@@ -5,4 +5,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
 ### Workflow status Badge:
-[![Eslint](https://github.com/LeonidMezhonov/frontend-project-lvl1/workflows/Eslint/badge.svg)](https://github.com/LeonidMezhonov/frontend-project-lvl1/actions/workflows/nodejs.yml)
+[![Eslint](https://github.com/LeonidMezhonov/frontend-project-lvl1/workflows/Eslint/badge.svg)](https://github.com/LeonidMezhonov/frontend-project-lvl1/actions/workflows/nodejs.yml) 
+
+### Brain-even game asciinema:
+https://asciinema.org/a/KDyrZVDhspERincu8C1Wdr42m
