@@ -25,10 +25,7 @@ const game = () => {
         console.log(`Let's try again, ${name}`);
         return;
       }
-    }
-
-    // if the number is odd
-    else {
+    } else {
       if (yourAnswer === 'no') {
         console.log('Correct!');
       } else if (yourAnswer === 'yes') {
