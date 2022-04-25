@@ -16,15 +16,11 @@ const game = () => {
     if (number % 2 === 0) {
       if (yourAnswer === 'yes') {
         console.log('Correct!');
-      }
-
-      else if (yourAnswer === 'no') {
+      } else if (yourAnswer === 'no') {
         console.log("'no' is wrong answer ;(. Correct answer was 'yes'.");
         console.log(`Let's try again, ${name}`);
         return;
-      }
-
-      else {
+      } else {
         console.log('Incorrect data entry!');
         console.log(`Let's try again, ${name}`);
         return;
@@ -34,23 +30,19 @@ const game = () => {
     // if the number is odd
     else {
       if (yourAnswer === 'no') {
-        console.log("Correct!");
-      }
-
-      else if (yourAnswer === 'yes') {
+        console.log('Correct!');
+      } else if (yourAnswer === 'yes') {
         console.log("'yes' is wrong answer ;(. Correct answer was 'no'.");
         console.log(`Let's try again, ${name}`);
         return;
-      }
-        
-      else {
+      } else {
         console.log('Incorrect data entry!');
         console.log(`Let's try again, ${name}`);
         return;
       }
     }
   }
-  
+
   console.log(`Congratulations, ${name}!`);
 };
 
