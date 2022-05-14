@@ -7,7 +7,7 @@
 Hello, this is my first JS project. This is the collection of console games where you need to define even numbers, calculate expressions, find a missing number of progression, calculate the greatest common divisor of 2 numbers and define if the number is prime or not. Enjoy! 😁 
 
 ## How to install: 
-- git clone https://github.com/LeonidMezhonov/frontend-project-lvl1.git
+- git clone https://github.com/LeonidMezhonov/frontend-project-lvl1
 - make install
 - npm ci
 - npm link
