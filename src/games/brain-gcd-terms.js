@@ -7,16 +7,20 @@ function getRandomInt() {
 }
 
 const GCD = (a, b) => {
-  if (a === 0) {
-    return b;
+  let valA = a;
+  let valB = b;
+  if (valA === 0) {
+    return valB;
   }
 
-  while (b !== 0) {
-    if (a > b) {
-      a -= b;
-    } else { b -= a; }
+  while (valB !== 0) {
+    if (valA > valB) {
+      valA -= valB;
+    } else {
+      valB -= valA;
+    }
   }
-  return a;
+  return valA;
 };
 
 const terms = () => {
